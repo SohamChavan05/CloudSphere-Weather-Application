@@ -1,0 +1,7 @@
+.rightContainer{
+    width: 40rem;
+    height: 40rem;
+    background-color: rgba(0, 0, 0, 0.355);
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+}

@@ -1,0 +1,25 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  animation: change 60s infinite ease-in-out;
+}
+
+@keyframes change {
+  0%,
+  100% {
+    background-image: url("./assets/img/bgImg.jpg");
+  }
+  25% {
+    background-image: url("./assets/img/bgImg1.jpg");
+  }
+  50% {
+    background-image: url("./assets/img/bgImg2.jpg");
+  }
+  75% {
+    background-image: url("./assets/img/bgImg3.jpg");
+  }
+}

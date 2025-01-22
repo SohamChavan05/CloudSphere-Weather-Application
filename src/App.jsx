@@ -1,11 +1,12 @@
+import React from "react";
 import "./App.css";
+import WeatherApp from "./components/WeatherApp";
 
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div>
+      <WeatherApp />
+    </div>
   );
 }
-
 export default App;
